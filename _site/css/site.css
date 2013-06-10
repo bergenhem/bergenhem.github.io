@@ -169,7 +169,7 @@ section#content ul li {
 	padding-right: 30px;
 	padding-bottom: 10px;
 
-	border-bottom: 1px solid rgb(17, 17, 17);
+	/*border-bottom: 1px solid rgb(17, 17, 17);*/
 }
 
 section#content ul li:hover {

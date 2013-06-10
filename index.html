@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+
 <ul>
-	<li><a href="#">Sample Blog Post</a><div class="postDate">JUNE 6TH 2013</div></li>
-	<li><a href="#">Sample Blog Post Again</a><div class="postDate">JUNE 5TH 2013</div></li>
-	<li><a href="#">I Made This!</a><div class="postDate">JUNE 4TH 2013</div></li>
+	{% for post in site.posts %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a><div class="postDate">{{ post.date | date: "%B %d %Y" }}</div></li>
+	{% endfor %}
 </ul>
