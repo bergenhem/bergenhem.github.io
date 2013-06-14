@@ -28,9 +28,8 @@ header {
 	height: 50px;
 	width: 100%;
 
-	position: fixed;
-	top: 0px;
-	left: 0px;
+	position: relative;
+	margin-bottom: 30px;
 }
 
 header p {
@@ -156,8 +155,6 @@ section#content ul li:hover a:active {
 
 section#content ul {
 	list-style-type: none;
-	margin-top: 100px;
-	margin-bottom: 100px;
 }
 
 section#content ul li {
