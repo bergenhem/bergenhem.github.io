@@ -164,12 +164,13 @@ section#content ul li {
 	font-size: 2em;
 	width: 800px;
 	margin: 0px auto;
+	
 	padding-top: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 10px;
 
-	/*border-bottom: 1px solid rgb(17, 17, 17);*/
+	border-bottom: 1px solid rgb(17, 17, 17);
 }
 
 section#content ul li:hover {
@@ -177,7 +178,8 @@ section#content ul li:hover {
 }
 
 section#content ul li div.postDate {
-	float: right;
+	float: left;
 	font-size: 0.75em;
 	line-height: 2em;
+	margin-right: 25px;
 }
