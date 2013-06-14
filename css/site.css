@@ -103,8 +103,19 @@ header.siteHeader nav ul li:hover a:active {
 	color: rgb(17, 17, 17);
 }
 
+header.blogHeader h1 {
+	font-size: 2.5em;
+	color: rgb(167, 208, 25);
+	text-align: center;
+}
+
 section#content {
 	position: relative;
+}
+
+section#content article {
+	width: 800px;
+	margin: 0px auto;
 }
 
 section#content ul li a {
