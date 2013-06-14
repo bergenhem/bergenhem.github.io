@@ -22,7 +22,7 @@ body {
 	font-size: 12px;
 }
 
-header {
+header.siteHeader {
 	background-color: rgb(17, 17, 17);
 	color: rgb(167, 208, 25);
 	height: 50px;
@@ -32,74 +32,74 @@ header {
 	margin-bottom: 30px;
 }
 
-header p {
+header.siteHeader p {
 	font-size: 2em;
 	line-height: 2em;
 	margin-left: 10px;
 }
 
-header nav {
+header.siteHeader nav {
 	position: absolute;
 	top: 0px;
 	right: 0px;
 }
 
-header nav ul li {
+header.siteHeader nav ul li {
 	display: inline-block;
 	height: 50px;
 	width: 100px;
 	text-align: center;
 }
 
-header nav ul li:hover {
+header.siteHeader nav ul li:hover {
 	background-color: rgb(167, 208, 25);
 }
 
-header nav ul li a {
+header.siteHeader nav ul li a {
 	font-size: 2em;
 	line-height: 2em;
 	text-decoration: none;
 }
 
-header nav ul li a:link {
+header.siteHeader nav ul li a:link {
 	color: rgb(167, 208, 25);
 }
 
-header nav ul li a:visited {
+header.siteHeader nav ul li a:visited {
 	color: rgb(167, 208, 25);
 }
 
-header nav ul li a:hover {
+header.siteHeader nav ul li a:hover {
 	color: rgb(167, 208, 25);
 }
 
-header nav ul li a:focus {
+header.siteHeader nav ul li a:focus {
 	color: rgb(167, 208, 25);
 }
 
-header nav ul li a:active {
+header.siteHeader nav ul li a:active {
 	color: rgb(167, 208, 25);
 }
 
-header nav ul li:hover a:link {
+header.siteHeader nav ul li:hover a:link {
 	color: rgb(17, 17, 17);
 	border-bottom: 3px solid;
 }
 
-header nav ul li:hover a:visited {
+header.siteHeader nav ul li:hover a:visited {
 	color: rgb(17, 17, 17);
 }
 
-header nav ul li:hover a:hover {
+header.siteHeader nav ul li:hover a:hover {
 	color: rgb(17, 17, 17);
 	border-bottom: 3px solid;
 }
 
-header nav ul li:hover a:focus {
+header.siteHeader nav ul li:hover a:focus {
 	color: rgb(17, 17, 17);
 }
 
-header nav ul li:hover a:active {
+header.siteHeader nav ul li:hover a:active {
 	color: rgb(17, 17, 17);
 }
 
