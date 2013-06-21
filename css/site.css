@@ -116,27 +116,32 @@ section#content {
 	margin: 0px auto;
 }
 
-section#content ul li a {
+section#content a {
 	text-decoration: none;
 }
 
-section#content ul li a:link {
+section#content a:link {
 	color: rgb(167, 208, 25);
 }
 
-section#content ul li a:visited {
+section#content a:visited {
 	color: rgb(167, 208, 25);
 }
 
+section#content a:hover
 section#content ul li a:hover {
 	color: rgb(167, 208, 25);
 }
 
-section#content ul li a:focus {
+section#content a:hover {
+	text-decoration: underline;
+}
+
+section#content a:focus {
 	color: rgb(167, 208, 25);
 }
 
-section#content ul li a:active {
+section#content a:active {
 	color: rgb(167, 208, 25);
 }
 
@@ -193,4 +198,9 @@ section#content ul li div.postDate {
 section#content article p {
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+section#content article img {
+	display: block;
+	margin: 10px auto;
 }
