@@ -118,7 +118,6 @@ section#content {
 
 section#content a {
 	text-decoration: none;
-	transition: all 0.5s;
 }
 
 section#content a:link {
@@ -129,13 +128,9 @@ section#content a:visited {
 	color: rgb(167, 208, 25);
 }
 
-section#content a:hover
+section#content a:hover,
 section#content ul.blogNavigator li a:hover {
 	color: rgb(167, 208, 25);
-}
-
-section#content a:hover {
-	text-decoration: underline;
 }
 
 section#content a:focus {
@@ -199,6 +194,10 @@ section#content ul.blogNavigator li div.postDate {
 section#content article p {
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+section#content article p a:hover {
+	text-decoration: underline;
 }
 
 section#content article img {
