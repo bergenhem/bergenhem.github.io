@@ -112,9 +112,6 @@ header.blogHeader h1 {
 
 section#content {
 	position: relative;
-}
-
-section#content article {
 	width: 800px;
 	margin: 0px auto;
 }
@@ -191,4 +188,9 @@ section#content ul li div.postDate {
 	font-size: 0.7em;
 	line-height: 2.25em;
 	margin-right: 25px;
+}
+
+section#content article p {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
