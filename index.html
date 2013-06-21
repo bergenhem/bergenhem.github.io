@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<ul>
+<ul class="blogNavigator">
 	{% for post in site.posts %}
 	<li><div class="postDate">{{ post.date | date: "%B %d %Y" }}</div><a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}

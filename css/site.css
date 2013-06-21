@@ -129,7 +129,7 @@ section#content a:visited {
 }
 
 section#content a:hover
-section#content ul li a:hover {
+section#content ul.blogNavigator li a:hover {
 	color: rgb(167, 208, 25);
 }
 
@@ -145,33 +145,33 @@ section#content a:active {
 	color: rgb(167, 208, 25);
 }
 
-section#content ul li:hover a:link {
+section#content ul.blogNavigator li:hover a:link {
 	color: rgb(47, 47, 47);
 	border-bottom: 3px solid;
 }
 
-section#content ul li:hover a:visited {
+section#content ul.blogNavigator li:hover a:visited {
 	color: rgb(47, 47, 47);
 }
 
-section#content ul li:hover a:hover {
+section#content ul.blogNavigator li:hover a:hover {
 	color: rgb(47, 47, 47);
 	border-bottom: 3px solid;
 }
 
-section#content ul li:hover a:focus {
+section#content ul.blogNavigator li:hover a:focus {
 	color: rgb(47, 47, 47);
 }
 
-section#content ul li:hover a:active {
+section#content ul.blogNavigator li:hover a:active {
 	color: rgb(47, 47, 47);
 }
 
-section#content ul {
+section#content ul.blogNavigator {
 	list-style-type: none;
 }
 
-section#content ul li {
+section#content ul.blogNavigator li {
 	font-size: 1.5em;
 	width: 800px;
 	margin: 0px auto;
@@ -184,11 +184,11 @@ section#content ul li {
 	border-bottom: 1px solid rgb(17, 17, 17);
 }
 
-section#content ul li:hover {
+section#content ul.blogNavigator li:hover {
 	background-color: rgb(167, 208, 25);
 }
 
-section#content ul li div.postDate {
+section#content ul.blogNavigator li div.postDate {
 	float: left;
 	font-size: 0.7em;
 	line-height: 2.25em;
@@ -206,5 +206,5 @@ section#content article img {
 }
 
 section#content article div.socialBar {
-	
+
 }
