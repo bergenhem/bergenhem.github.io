@@ -189,6 +189,7 @@ section#content ul.blogNavigator li div.postDate {
 	font-size: 0.7em;
 	line-height: 2.25em;
 	margin-right: 25px;
+	width: 150px;
 }
 
 section#content article p {
