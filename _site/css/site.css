@@ -205,6 +205,12 @@ section#content article img {
 	margin: 10px auto;
 }
 
+section#content article ul,
+section#content article ol {
+	padding-left: 50px;
+	list-style-type: square;
+}
+
 section#content article div.socialBar {
 	width: 250px;
 	margin: 10px auto;
