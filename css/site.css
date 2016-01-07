@@ -39,7 +39,7 @@ i.fa-twitter {
 }
 
 div#profile-area {
-	width: 475px;
+	width: 500px;
 	margin: auto;
   text-align: center;
 }
@@ -65,6 +65,10 @@ div.profile-header::selection,
 div.profile-header h1::selection {
   color: rgb(255, 250, 213);
   background: rgb(219, 158, 54);
+}
+
+section#content {
+  margin-top: 30px;
 }
 
 section#content a {
